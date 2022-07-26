@@ -1,0 +1,17 @@
+<div>
+    <div class="sectionPokemon">
+        <div class="grid">
+            <div class="card" *ngFor="let pokemon of pokemonArray">
+                <div class="cardNum">
+                    <p>#{{pokemonArray.indexOf(pokemon)+1}}</p>
+                </div>
+                <div class="cardImg">
+                    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/{{pokemon.__zone_symbol__value.name}}.png">
+                </div>
+                <div class="cardFooter">
+                    <p class="pokemonName">{{pokemon.__zone_symbol__value.name}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

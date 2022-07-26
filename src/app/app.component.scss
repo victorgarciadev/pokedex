@@ -1,0 +1,122 @@
+// .container {
+//     padding: 5px;
+// }
+
+.corporativeName {
+    font-weight: bolder;
+    font-size: 22px;
+    text-decoration: none;
+    color: #000;
+
+    
+}
+
+.navbar {
+    //width: 100%;
+    height: 85px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    //background: linear-gradient(100deg, rgb(194, 16, 149) ,#a2b0e4, rgb(113, 202, 91) , rgb(230, 193, 31) ,#d65b5b);
+    background-color: rgba(255, 255, 255, 1);
+    color: rgb(0, 0, 0);
+    //margin: 10px;
+    //border-radius: 60px;
+    font-size: larger;
+    //font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: sticky;
+    border-bottom: #000 5px solid;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    gap: 30px;
+    transition-duration: 0.2s;
+
+    :hover {
+        // text-decoration: underline solid 4px;
+        cursor: pointer;
+        font-weight: 900;
+        font-size: x-large;
+        transition: all 0.5s ease-out;
+        transition-duration: 0.2s;
+    }
+
+    div a {
+        text-decoration: none;
+        color: #000;
+    }
+}
+
+.logo {
+    margin-left: 20px;
+    // width: 60px;
+    height: 65px;
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+
+    a {
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #fff;
+    }
+}
+
+.searchBar {
+    margin-right: 10px;
+    position: relative;
+
+    input {
+        width: 200px;
+        height: 30px;
+        border-radius: 10px;
+        border: none;
+        background-color: #d65b5b00;
+    }
+
+    input:hover {
+        border: 1px solid rgba(0, 0, 0, 0.267);
+    }
+
+    button {
+        position: absolute;
+        top: 8px;
+        right: 5px;
+        background: none;
+        border: none;
+
+        span {
+            font-weight: bold;
+            color: #000
+        }
+    }
+}
+
+.footerHR {
+    border: 100%;
+    border-color: #000;
+    height: 4px;
+    background-color: rgba(0, 0, 0, 0.300);
+    width: 80%;
+    margin-top: 100px;
+    border-radius: 30px;
+}
+
+.footer {
+    padding:10px;
+    text-align: center;
+    color: #fff;
+}
+
+.easter {
+    text-decoration: none;
+    cursor: auto;
+}
